@@ -1,0 +1,22 @@
+footer{
+	background-color: #eee;
+}
+.rowContainer{
+	padding: 15px 0px;
+}
+.visa img{
+	width: 150px;
+}
+nav{
+	background-color: #3a44d6;
+}
+#home, #about, #sign, #reg, #cart{
+	color: #c5c6dd;
+}
+footer{
+	background-color: #3a44d6;
+	height: 200px;
+}
+small{
+	color: #c5c6dd;
+}
