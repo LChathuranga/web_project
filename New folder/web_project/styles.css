@@ -1,0 +1,192 @@
+/*All*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color: rgba(230, 230, 250, 0.7 );
+
+}
+
+.btn:hover{
+	background-color:purple ;
+}
+
+h1{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: purple;
+
+}
+
+.rowContainer{
+	padding: 15px 0px;
+}
+.visa img{
+	width: 150px;
+}
+nav{
+	background-color: #4361ee;
+}
+#home, #about, #sign, #reg, #cart{
+	color: #eee;
+}
+
+
+
+
+
+
+/*footer*/
+
+
+/*styling background*/
+
+footer{
+	background-color: #4361ee;
+	height: 200px;
+}
+
+/*styling text*/
+
+small{
+	color: #eee;
+}
+.footer_div{
+	margin-top: 8%;
+}
+footer a{
+	color: #fff;
+}
+
+
+
+
+/*register page*/
+
+
+
+/*conform password error*/
+
+.password_error{
+	color: red;
+}
+label{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+/*category page*/
+
+
+.categories{
+	height: 100vh;
+	position: relative;
+	top: -60px;
+	margin-bottom: 60px;
+}
+.category-list ul{
+	list-style-type: none;
+}
+.category-list ul li{
+	margin-top: 2px;
+	border: 1px solid #ccc;
+	background-color: #4895ef;
+}
+.category-list ul li a{
+	display: inline-block;
+	margin: 10px 0 10px 15px;
+	text-decoration: none;
+	color: white;
+}
+#category-title{
+	color: #3A0CA3;
+	background-color: #4cc9f0;
+}
+#category-title h3{
+	margin: 10px;
+}
+.svg{
+	position: absolute;
+	right: 10%;
+}
+.category-list ul li:hover{
+	background-color: #4cc9f0;
+}
+
+
+
+
+/*Home*/
+
+
+/*styiling button in card*/
+
+.card-btn{
+	position: absolute;
+	bottom: 10px;
+}
+
+/*card title*/
+
+.trending{
+	width: 25%;
+	margin: 0 auto 20px auto;
+	color: #3A0CA3;
+}
+.home_footer{
+	margin-top: 25px;
+}
+
+/*style some discryption cards*/
+
+.discryption{
+	box-sizing: border-box;
+	box-shadow: 5px 2px 5px 3px rgba(0, 0, 0, 0.18);
+	height: 40vh;
+	position: relative;
+	top: -40px;
+}
+
+/*collering rating stars*/
+.checked {
+  color: orange;
+}
+
+
+
+/*Style animation*/
+
+.main_img{
+	z-index: -1000;
+	height: 60vh;
+	position: relative;
+	top: -60px;
+	overflow: hidden;
+}
+
+#slide_image{
+	opacity: 0.8;
+    display: block;
+    margin: 0 auto;
+    animation: zoom 3s linear infinite;
+
+}
+
+@keyframes zoom{
+	0%{
+		transform: scale(1.5);
+	}
+	20%{
+		transform: scale(1.0);
+	}
+	80%{
+		transform: scale(1.0);	
+	}
+	100%{
+		transform: scale(1.5);
+	}
+}
